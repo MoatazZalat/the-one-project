@@ -1,0 +1,1130 @@
+body{
+    height: 7000px;   
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+.icon00{
+    float: left;
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+ 
+.search0{
+    position: absolute;
+    margin-left: 20px;
+    float: left;
+    margin-top: 22px;
+}
+.text00{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 60px;
+}
+.list{
+    list-style: none;
+    float:  right;
+    margin-right: 200px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.list  li{
+         display: inline-block;
+         margin-left: 25px; 
+}
+.list  li  a{
+    color: gold;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/IMG-20241108-WA0042.jpg);
+    position: relative;
+}
+.home-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;      
+}
+.home-content{
+    width: 50%;
+    /* hero image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);                    /*معناه انو يبقي في النص علي طول   */
+    text-align: center;
+}
+.home-title{
+     color: black;
+     font-size: 45px;
+     text-transform: uppercase;
+}
+.home-p{
+    color: black;
+    margin: 20px 0;
+}
+.home-btn{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.home-btn::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.home-btn:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    color: aliceblue;
+    position: relative;
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.btn:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.mezo{
+    text-align: center;
+    margin-top: 300px;
+    color: black;
+    font-size: 50px;
+}
+.line2{
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    background-color: blue;
+    margin-bottom: 25px;
+}
+.zalat{
+    width: 270px;
+    height: 200px;
+    color: black;
+    border: 3px solid  blue;
+    text-align: center;
+    margin-left: 500px;
+    position: relative;
+}
+.zalat::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 1s;
+}
+.zalat:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.ahmed{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.qaz{
+    color: blue;   
+}
+.i1{
+    font-size: 40px;
+}
+.zalat1{
+    width: 270px;
+    height: 200px;
+    color: black;
+    border: 3px solid  blue;
+    text-align: center;
+    margin-left: 200px;
+    float: right;
+    margin-right: 170px;
+    position: relative;
+}
+.zalat1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 1s;
+}
+.zalat1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.i2{
+    font-size: 40px;
+}
+.zalat2{
+    width: 270px;
+    height: 200px;
+    color: black;
+    border: 3px solid  blue;
+    text-align: center;
+    margin-left: 190px;
+    position: relative;
+}
+.zalat2::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 1s;
+}
+.zalat2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.i3{
+    font-size: 40px;
+}
+.page3{
+    text-align: center;
+    margin-top: 200px;
+    color: black;
+    font-size: 50px;
+}
+.line3{
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    background-color: blue;
+    margin-bottom: 15px;   
+} 
+.picture{
+   width: 100%;
+   height: 600px;
+}
+.img001{
+    float: right;
+    margin-right: 150px;
+}
+.img002{
+    float: right;
+    margin-right: 150px;
+}
+.img003{
+    float: right;
+    margin-right: 150px;
+}
+.img004{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.img005{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.img006{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.page4{
+    margin-top: 200px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.line4{
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    background-color: blue;
+    margin-bottom: 15px;
+}
+.square1{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    border: 3px solid black;
+    float: right;
+    margin-right: 120px;
+    position: relative;
+}
+.square1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.square1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.square2{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    border: 3px solid black;
+    float: right;
+    margin-right: 50px;
+    position: relative;
+}
+.square2::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.square2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.square3{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    border: 3px solid black;
+    margin-left: 120px;
+    position: relative;
+}
+.square3::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.square3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.square4{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    border: 3px solid black;
+    float: right;
+    margin-right: 120px;
+    margin-top: 30px;
+    position: relative;
+}
+.square4::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.square4:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.square5{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    border: 3px solid black;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    position: relative;
+}
+.square5::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.square5:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.square6{
+    width: 300px;
+    height: 270px;
+    text-align: center;
+    border: 3px solid black;
+    margin-left: 120;
+    margin-top: 30px;
+    position: relative;
+}
+.square6::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.square6:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.icon1{
+    font-size: 35px;
+    float: left;
+    color: blue;
+    margin-top: 20px;
+}
+.icon2{
+    font-size: 35px;
+    float: left;
+    color: blue;
+    margin-top: 20px;
+}
+.icon3{
+    font-size: 35px;
+    float: left;
+    color: blue;
+    margin-top: 20px;
+}
+.icon4{
+    font-size: 35px;
+    float: left;
+    color: blue;
+    margin-top: 20px;
+}
+.icon5{
+    font-size: 35px;
+    float: left;
+    color: blue;
+    margin-top: 20px;
+}
+.icon6{
+    font-size: 35px;
+    float: left;
+    color: blue;
+    margin-top: 20px;
+}
+.zse{
+    width: 950px;
+    height: 3px;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.h5{
+   margin-top: 200px;
+    margin-left: 170px;
+}
+.L55{
+    width: 80px;
+    height: 3px;
+    background-color: blue;
+    margin-left: 165px;
+    margin-top: 3px;
+}
+.space4{
+    width: 365px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.circle{
+      float: right;
+      margin-top: 200px;
+      margin-right: 50px;
+}
+.o1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    float: right;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.o2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.o3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    background-color: blue;
+}
+/*///////////////////////////////////////////////////////////////////*/
+.most{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/IMG-20241108-WA0042.jpg);
+    margin-top: 150px;
+}
+.iconat{
+    width: 200pt;
+    height: 200px;
+    text-align: center;   
+    float: left;
+    margin-left: 80px;
+}
+.ii{
+    margin-top: 80px;
+    font-size: 50px;
+    color: blue;
+}
+.iconat2{
+    width: 200pt;
+    height: 200px;
+    text-align: center;   
+    float: left;
+}
+.ii2{
+    margin-top: 80px;
+    font-size: 50px;
+    color: blue;
+}
+.iconat3{
+    width: 200pt;
+    height: 200px;
+    text-align: center;   
+    float: left;
+}
+.ii3{
+    margin-top: 80px;
+    font-size: 50px;
+    color: blue;
+}
+.iconat4{
+    width: 200pt;
+    height: 200px;
+    text-align: center;   
+    float: left;
+}
+.ii4{
+    margin-top: 80px;
+    font-size: 50px;
+    color: blue;
+}
+                  /*/////////////////////////////////////////////////////////*/ 
+.mezo55{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 5px;                  
+}
+.line55{
+    width: 110px;
+    height: 4px;
+    margin: auto;
+    background-color: blue;
+} 
+.parent55{
+    margin-top: 80px;
+    float: left;
+    margin-left: 120px;
+    position: relative;
+}
+.parent55::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.parent55:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}                
+.div55{
+    width: 300px;
+    height: 400px;
+    border: 2px solid  gray;
+    background-color: gold;
+    float: left;
+    text-align: center;
+}   
+.btn55{
+    width: 150px;
+    height: 30px;
+    color: black;
+    border: 3px solid blue;
+    margin-top: 20px;
+} 
+.title55{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title56{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}.title57{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.circle55{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+.circle55:hover{
+    color: beige;
+}
+.zalat55{
+    margin-top: 20px;
+    word-spacing: 5px;
+}
+.zalat56{
+    margin-top: 20px;
+    word-spacing: 5px;
+}
+.zalat57{
+    margin-top: 20px;
+    word-spacing: 5px;
+}
+.parent56{
+    margin-top: 80px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 200px;
+    position: relative;
+}
+.parent56::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.parent56:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}                
+.div56{
+    width: 300px;
+    height: 400px;
+    border: 2px solid  gray;
+    background-color: gold;
+    float: left;
+    text-align: center;
+}       
+.parent57{
+    margin-top: 80px;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 200px;
+    position: relative;
+}
+.parent57::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    transition: 1s;
+}
+.parent57:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}                
+.div57{
+    width: 300px;
+    height: 400px;
+    border: 2px solid  gray;
+    background-color: gold;
+    float: left;
+    text-align: center;
+}                        
+                /*//////////////////////////////////////////////////////////////*/
+.people{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/IMG-20241108-WA0041.jpg);
+    margin-top: 650px;
+}
+.names{
+    float: left;
+    margin-left: 200px;
+    width: 300px;
+    height: 200px;
+}
+.names2{
+    float: left;
+    margin-left: 200px;
+    width: 300px;
+    height: 200px;
+}
+.zzzzz{
+    float: right;
+}
+.zalatt{
+    margin-right: 40px;
+    color: white;
+}
+.zalatt1{
+    color: blue; 
+    margin-right: 30px;  
+}
+.page6{
+    text-align: center;
+    margin-top: 150px;
+}
+.line-title6{
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto; 
+    margin-top: 50px;
+}
+.team-item{
+    float: left;
+    width: 30%;
+    background-color: gold;
+    padding: 14px  18px;
+    text-align: center;
+    position: relative;
+}
+.ww{
+    margin: 0px  5%;
+}
+.team-img{
+     width: 90%;
+     margin: auto;
+     background-color: beige;
+     position: relative;
+}
+.team-img   img{
+    width: 100%;
+}
+.team-overley{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);        /*  بتبقي شامله اللون فقط للشفافيه  */
+   /* opacity: 0.3; */
+   visibility: hidden;
+   opacity: 0;
+}
+.team-item:hover   .team-overley{
+    visibility: visible;
+    transition: all  1s;
+    opacity: 0.7;
+}
+.team-overley  a{
+    display: block;
+    width: 25px;
+    height: 40px;
+    background-color: beige;
+    color: blue;
+    font-size: 20px;
+    margin-left: auto;
+}
+.team-overley  a  i  {
+    line-height: 40px;
+}
+.team-info-title{
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.team-info-p{
+    text-transform: capitalize;
+}
+.team-item:hover  .team-info-title{
+    color: white;
+}
+.team-item:hover   .team-info-p{
+    color: blue;
+}
+              /*////////////////////////////////////////////////////////////////*/
+.team-item::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transition: 2s;
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+                     /*////////////////////////////////////////////*/
+.title666{
+    text-align: center;
+    margin-top: 450px;
+}
+.line666{
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 15px;
+}    
+.div6661{
+    float: left;
+    width: 300px;
+    height: 500px;
+    border: 3px solid blue;
+    background-color: gold;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+.div6661>*{
+   position: relative;
+   z-index: 2;
+}
+.div6661::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    transition: 2s;
+}
+.div6661:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}    
+.img6661{
+    margin-top: 20px;
+    margin-left: 25px;
+}    
+.icons6661{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: blue;
+}
+.word6661{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}         
+.word6661:hover{
+    color: blue;
+}
+.icons66611{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: blue;
+}
+.word66611:hover{
+    color: blue;
+}
+.word66611{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}         
+.icons666111{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: blue;
+}
+.word666111{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}         
+.h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lorem{
+    text-align: center;
+    text-transform: capitalize;
+}
+.btn666111{
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    font-size: 20px;
+}
+.div6662{
+    float: left;
+    width: 300px;
+    height: 500px;
+    border: 3px solid blue;
+    background-color: gold;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}    
+.div6662>*{
+    position: relative;
+    z-index: 2;
+ }
+.div6662::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    transition: 2s;
+}
+.div6662:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}    
+.img6662{
+    margin-top: 20px;
+    margin-left: 25px;
+}    
+.icons6662{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: blue;
+}
+.word6662{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}         
+.icons66622{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: blue;
+}
+.word66622{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}         
+.icons666222{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: blue;
+}
+.word666222{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}         
+.btn666222{
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    font-size: 20px;
+}
+.div6663{
+    float: left;
+    width: 300px;
+    height: 500px;
+    border: 3px solid blue;
+    background-color: gold;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}    
+.div6663::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    transition: 2s;
+}
+.div6663>*{
+    position: relative;
+    z-index: 2;
+ }
+.div6663:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}  
+.img6663{
+    margin-top: 20px;
+    margin-left: 25px;
+}    
+.icons6663{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: blue;
+}
+.word6663{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}         
+.icons66633{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: blue;
+}
+.word66633{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}         
+.icons666333{
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: blue;
+}
+.word666333{
+    float: left;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}         
+.btn666333{
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    font-size: 20px;
+}
+                    /*////////////////////////////////////////////////////////*/
+.end{
+    width: 100%;
+    height: 350px;
+    background-color: midnightblue;
+    margin-top: 650px;
+}
+.end-img{
+    margin-top: 20pt;
+    margin-left: 35%;   
+}
+.end-icons{
+    margin-left: 33%;
+    font-size: 53px;
+    margin-top: 20px;
+    color: white;
+}
+.end-sentence{
+    margin-left: 35%;
+    margin-top: 10px;
+}
